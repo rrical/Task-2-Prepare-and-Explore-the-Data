@@ -1,0 +1,37 @@
+1. El mayor posible incumplimiento de la tarjeta de crédito será para el saldo 
+   límite de alrededor de 10000. Esto puedes significar que la tarjeta de crédito 
+   puede ser demasiado fácil de emitir para personas que tienen puntajes de crédito 
+   bajos. La variación de la tasa predeterminada para el saldo límite superior 
+   a 500000 es mayor que otro rango de saldo límite.
+
+2. La tasa de incumplimiento más baja para los titulares de tarjetas será la que 
+   tienen un nivel de educación superior. Por otra parte, la tasa de incumplimiento 
+   para los clientes cuya edad superior a 60 años era mayor que la de mediana edad 
+   y los jóvenes.
+
+3. Se visualiza un mejor algoritmo de ajuste para predecir el equilibrio límite
+   al enfoque de agrupado
+
+4. Se visualiza un mejor algoritmo de mejor ajuste para predecir si un cliente 
+   con pago predeterminado para el próximo mes puede ser árboles de clasificación.
+
+5. ¿Aprendiste algo de valor comercial potencial de este análisis?
+   Será muy complicado decidir sobre la forma en los clientes gastan su dinero,
+   considerando que aún al saber si el siguiente mes podría recibirse el pago
+   no se conoce con certidumbre que el cliente haga el pago efectivo.
+
+6. ¿Cuáles son las principales lecciones que has aprendido de esta experiencia?
+   No asumir o hacer suposiciones sobre los datos, antes de permitirles contar la historia
+
+7. ¿Qué recomendaciones le darías a Guido con respecto a tus hallazgos?
+   Adicional a la exploración los datos, buscando verificar el desequilibrio de datos, 
+   visualizando las características y entendiendo la relación entre las 
+   diferentes características. Debemos plantearnos para la creación de modelos, 
+   algunas de las siguiente preguntas: 
+
+     ¿Qué variables independientes parecen tener el poder más discriminatorio?
+     ¿Qué umbral de probabilidad tendría sentido en este caso de clasificación predeterminada de tarjeta de crédito?
+     En la matriz de confusión se debe tener valores diagonales grandes y valores pequeños fuera de diagonal. ¿Por qué?   
+     ¿Deberíamos esperar que el rendimiento de nuestro modelo de clasificación sea cercano al de nuestros datos de prueba 
+       cuando implementamos el modelo en la práctica? ¿Por qué o por qué no? ¿Qué debemos hacer si son diferentes?
+     ¿Qué decisiones comerciales puede tomar el emisor de la tarjeta de crédito con base en este análisis?
